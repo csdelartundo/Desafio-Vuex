@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-import juegos from "@/juegos.json";
+import juegos from "../assets/juegos.json";
 
 const formattedJuegos = juegos.map((juego) => ({
     ...juego,
