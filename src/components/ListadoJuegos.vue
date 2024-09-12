@@ -83,11 +83,13 @@ export default {
 }
 
 button {
-    margin-right: 5px;
+    background-color: #4c70af;
+    color: white; 
     padding: 5px 10px;
-    border: 1px solid #240750;
-    background: #AD49E1;
+    border: none; 
+    border-radius: 25px;
     cursor: pointer;
-    border-radius: 40%;
+    font-size: 16px; 
+    margin-right: 5px; 
 }
 </style>
